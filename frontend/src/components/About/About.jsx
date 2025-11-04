@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div id="about">
-    <section  className="flex flex-col md:flex-row items-center justify-center  px-10 mt-72">
+    <section  className="flex flex-col md:flex-row items-center justify-center mt-56 px-10 md:mt-72">
       <div className="max-w-7xl w-full rounded-3xl overflow-hidden flex flex-col md:flex-row">
         
         {/* الصورة - تميل باتجاه النص */}

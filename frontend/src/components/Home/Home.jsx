@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div>
         <NavBar />
-        <Video />
+        {/* <Video /> */}
         <About />
         <Services />
         <Videos />
