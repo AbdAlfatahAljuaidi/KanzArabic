@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+const apiUrl = import.meta.env.VITE_REACT_APP_BACKEND_BASEURL;
 
 const Form = () => {
 
@@ -25,7 +26,7 @@ const Form = () => {
     e.preventDefault();
 
     try {
-      const res = await axios.post("http://localhost:4000/api/send", formData);
+      const res = await axios.post(`${apiUrl}/api/send`, formData);
       setMessage(res.data.message);
     } catch (err) {
       setMessage(err.response?.data?.message || "حدث خطأ أثناء الإرسال");

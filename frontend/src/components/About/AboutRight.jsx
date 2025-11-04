@@ -1,16 +1,10 @@
 import React from 'react'
-import imageAbout from '../../assets/About.webp'
 
 const AboutRight = () => {
   return (
     <div className="relative bg-customRed p-8 text-white flex flex-col justify-center h-[400px] rounded-2xl shadow-lg overflow-hidden">
       
-      {/* الصورة بالخلفية */}
-      <img
-        src={imageAbout}
-        alt="Background"
-        className="absolute inset-0 w-full h-full object-cover opacity-20"
-      />
+   
 
       {/* تدرج خفيف لزيادة وضوح النص */}
       <div className="absolute inset-0 bg-black/20"></div>
