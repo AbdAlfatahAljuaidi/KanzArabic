@@ -2,39 +2,37 @@ import React from "react";
 
 const About = () => {
   return (
-    <div id="about">
-    <section  className="flex flex-col md:flex-row items-center justify-center mt-56 px-10 md:mt-72">
-      <div className="max-w-7xl w-full rounded-3xl overflow-hidden flex flex-col md:flex-row">
+    <div id="about" >
+    <section className="flex flex-col md:flex-row items-center justify-center mt-56 px-10 md:mt-72">
+      <div className="max-w-7xl w-full rounded-3xl overflow-hidden md:flex flex-col md:flex-row-reverse">
         
         {/* الصورة - تميل باتجاه النص */}
-        <div className="relative md:w-1/2 w-full flex justify-center items-center perspective">
+        <div className="relative md:w-1/2 w-full md:flex justify-center items-center hidden perspective">
           <img
-            src="https://res.cloudinary.com/danvxvhvq/image/upload/v1762228566/WhatsApp_Image_2025-11-02_at_4.35.11_PM_cjuoxa.jpg"
-            alt="About"
-            className="w-[95%] h-[450px] object-cover absolute left-[12%] transform rotate-y-6 transition-transform duration-700"
+            src="https://res.cloudinary.com/danvxvhvq/image/upload/v1762528283/About_whtim4.jpg"
+            alt="حولنا"
+            className="w-[95%] h-[450px] object-cover absolute right-[12%] transform -rotate-y-6 transition-transform duration-700"
           />
         </div>
-
+  
         {/* النص */}
-        <div className="md:w-1/2 w-full flex flex-col justify-center p-10 perspective bg-amber-50">
-          <h1 className="text-5xl font-bold mb-6 transform -rotate-y-6 transition-transform duration-700 text-customRed">
-            About Us
+        <div className="md:w-1/2 w-full flex flex-col justify-center p-10 md:perspective bg-amber-50 text-right">
+          <h1 className="text-5xl font-bold mb-6 transform rotate-y-6 transition-transform duration-700 text-customRed">
+            من نحن
           </h1>
-          <p className="text-gray-700 text-lg leading-relaxed mb-8 transform -rotate-y-6 transition-transform duration-700">
-            Based in Jordan, we are committed to empowering local businesses by
-            connecting them with unique, diverse, and rare content of the highest
-            quality. Our mission is to specialize in managing social media
-            accounts, creating creative content, and monitoring advertising
-            campaigns to help small and medium-sized businesses build an effective
-            digital presence.
+          <p className="text-gray-700 text-lg leading-relaxed mb-8 transform rotate-y-6 transition-transform duration-700">
+            مقرّنا في الأردن، ونسعى لتمكين الشركات المحلية من خلال ربطها بمحتوى فريد ومتنوع وعالي الجودة.
+            نحن متخصصون في إدارة حسابات التواصل الاجتماعي، وإنتاج المحتوى الإبداعي، ومتابعة الحملات الإعلانية
+            لمساعدة المشاريع الصغيرة والمتوسطة على بناء حضور رقمي فعّال ومميز.
           </p>
-          <button className="bg-customRed text-white font-semibold text-lg px-8 py-3 rounded-full w-fit transform -rotate-y-6 transition-all duration-500 hover:bg-white hover:text-customRed hover:border hover:border-customRed">
-            Read More
+          <button className="bg-customRed text-white font-semibold ml-auto text-lg px-8 py-3 rounded-full w-fit transform rotate-y-6 transition-all duration-500 hover:bg-white hover:text-customRed hover:border hover:border-customRed">
+            اقرأ المزيد
           </button>
         </div>
       </div>
     </section>
-    </div>
+  </div>
+  
   );
 };
 
