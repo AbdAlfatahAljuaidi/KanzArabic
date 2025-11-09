@@ -22,8 +22,8 @@ const NavBar = () => {
       </div>
   
       {/* الروابط - نسخة الديسكتوب */}
-      <nav className="hidden md:flex space-x-6 text-gray-700 font-medium flex-row-reverse">
-        <a href="#home" className="hover:text-amber-700 transition duration-300">
+      <nav className="hidden md:flex space-x-6 text-gray-700 font-medium flex-row-reverse" dir="ltr">
+        <a href="#home" className="hover:text-amber-700 transition duration-300 mx-6">
           الرئيسية
         </a>
         <a href="#about" className="hover:text-amber-700 transition duration-300">
