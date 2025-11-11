@@ -14,11 +14,12 @@ const NavBar = () => {
           alt="شعار كنز ميديا"
           className="h-28 w-28 object-contain transform transition-transform duration-700 group-hover:rotate-[360deg]"
         />
-        <h1 className="text-2xl font-bold text-gray-800 mt-5">
-          <span className="text-customRed">و</span>كالة{" "}
-          <span className="text-customRed">ك</span>نز{" "}
-          <span className="text-customRed">م</span>يديا
-        </h1>
+      <h1 className="text-2xl font-bold text-gray-800 mt-5">
+  <span className="text-customRed">K</span>anz{" "}
+  <span className="text-customRed">M</span>edia{" "}
+  <span className="text-customRed">A</span>gency
+</h1>
+
       </div>
   
       {/* الروابط - نسخة الديسكتوب */}
