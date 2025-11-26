@@ -14,7 +14,7 @@ const Footer = () => {
             alt="شعار كنز ميديا"
             className="w-12 h-12 rounded-full"
           />
-          <h2 className="text-xl font-semibold text-white">وكالة كنز ميديا</h2>
+          <h2 className="text-xl font-semibold text-white"> Kanz Media Agency</h2>
         </div>
         <p className="text-sm leading-relaxed">
           الرباعية - شارع الكندي - مجمع الكرادشة
